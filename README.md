@@ -6,7 +6,7 @@ Sources of hospital data in compliance with CMS manadate.
 
 If you would like to contribute to this master list, there are a few "rules" that we ask you to follow to keep this list organized.
 
-1. At this time, we are supporting csv, json and xls files. We have found a number of hospitals are exporting these data in Word documents.  If you have recommendations on how to approach this, see the "Join us online" section below.
+1. At this time, we are supporting csv, json and xls files. We have found a number of hospitals are exporting these data in Word documents, and some are releasing information in formats that do not appear to be machine readable.  If you have recommendations on how to approach this, see the "Join us online" section below.
 
 2. All records MUST have the following fields populated:
 
@@ -15,14 +15,17 @@ If you would like to contribute to this master list, there are a few "rules" tha
   - City
   - Hospital
   - Url
+  - Type (xlsx,json,csv)
 
 3. Where possible, always use "https" as the protocol in the url.  Sometimes the default link will be "http," yet "https" works.  If it works, please use it.
 
-4. For now, the url files will be csv.  
+4. When a hospital has multiple parts, make sure that each part number (e.g. "Part 1") is appended to the hospital name.
 
-5. Scripts must be in R or Python 3.  It would be nice to have both, but one will suffice.  We have sample script repositories for Python and R, and we will try our best to maintain both at the same level of functionality.  It is recommended to format Python code so that it supports [interactive Python](https://code.visualstudio.com/docs/python/jupyter-support) in Visual Studio Code.  We also prefer [RMarkdown](https://rmarkdown.rstudio.com/) in sample scripts.
+5. Some hospitals may not be sharing data in a machine readable format.  If you find a link to standard charges data, and that is the only version available, please add the link and specify "NMR" for the type.  We will return to these at a later time to possibly contact hospitals about the files, or provide this information to CMS if we are unable to contact the hospital.
 
-6. Contributions will be handled through [Pull Request](https://help.github.com/en/articles/about-pull-requests).  If you don't even know what git is, we recommend finding someone to help you get started and mentor you as you begin to code.  If you need help finding someone, see the "Join us online" section below.
+6. Scripts must be in R or Python 3.  It would be nice to have both, but one will suffice.  We have sample script repositories for Python and R, and we will try our best to maintain both at the same level of functionality.  It is recommended to format Python code so that it supports [interactive Python](https://code.visualstudio.com/docs/python/jupyter-support) in Visual Studio Code.  We also prefer [RMarkdown](https://rmarkdown.rstudio.com/) in sample scripts.
+
+7. Contributions of code will be handled through [Pull Request](https://help.github.com/en/articles/about-pull-requests).  If you don't even know what git is, we recommend finding someone to help you get started and mentor you as you begin to code.  If you need help finding someone, see the "Join us online" section below.
 
 ## Roadmaps and Plans
 
