@@ -1,5 +1,4 @@
 "State","County","City","Hospital","Url","Type"
-"AL"," Choctaw","Butler","Choctaw General Hospital","https://www.rushhealthsystems.org/sites/rhs/assets/File/Patients%20and%20Visitors/Pricing%20Transparency/CHOCTAW%20GENERAL%20HOSPITAL.csv","csv"
 "AL","Autauga","Prattville","Prattville Baptist Hospital","https://www.baptistfirst.org/assets/documents/financial/cdm-web-listing-jan-1-2019.xlsx","xlsx"
 "AL","Baldwin","Bay Minette","North Baldwin Infirmary","https://www.infirmaryhealth.org/sites/default/files/CMS/North_Baldwin_Infirmary_Charge_Master.csv","csv"
 "AL","Baldwin","Fairhope","Thomas Hospital","https://www.infirmaryhealth.org/sites/default/files/CMS/Thomas_Hospital_Charge_Master.csv","csv"
@@ -15,6 +14,7 @@
 "AL","Chambers","Valley","EAMC – Lanier","https://www.eamc.org/wp-content/uploads/2018/12/StandardCharges.csv?ver=20181219","csv"
 "AL","Cherokee","Centre","Floyd Cherokee Medical Center","https://api.hospitalpriceindex.com/hospital/4951?page=1&size=5000","json"
 "AL","Chilton","Clanton","St. Vincent’s Chilton","https://ascension.org/a-h-p-d?_ga=2.118281929.1318353427.1562968162-653992062.1562968162","NMR"
+"AL","Choctaw","Butler","Choctaw General Hospital","https://www.rushhealthsystems.org/sites/rhs/assets/File/Patients%20and%20Visitors/Pricing%20Transparency/CHOCTAW%20GENERAL%20HOSPITAL.csv","csv"
 "AL","Clarke","Grove Hill","Grove Hill Memorial Hospital","",""
 "AL","Clarke","Jackson","Jackson Medical Center","https://www.jmc.org/docs/standard_charges_1-2-19.csv","csv"
 "AL","Clay","Ashland","Clay County Hospital","http://www.claycountyhospital.com/docs/CHARGEMASTER_2019_ON_WEBSITE.xlsm?sub=Patient+Information","xlsx"
